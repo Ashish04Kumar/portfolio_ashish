@@ -211,7 +211,7 @@ const projects = [
   },
   {
     name: "Let's Eat Food Ordering WebApp",
-    description: "An enterprise-level web application designed to manage restaurant operations and facilitate food ordering. This dual-purpose application features both a customer interface and an admin panel. Customers can order and track their food, while restaurant owners can efficiently manage orders and overall restaurant operations"
+    description: "An enterprise-level web application designed to manage restaurant operations and facilitate food ordering. This dual-purpose application features both a customer interface and an admin panel. Customers can order and track their food, while restaurant owners can efficiently manage orders and overall restaurant operations",
     tags: [
       {
         name: "react",
