@@ -194,7 +194,7 @@ const projects = [
   {
     name: "E-Commerce",
     description:
-      "A eesponsive web-based platform that allows users to search, manage and order their selected products. This application is scalable to add authentication/authroization flow and payment gateway"
+      "A eesponsive web-based platform that allows users to search, manage and order their selected products. This application is scalable to add authentication/authroization flow and payment gateway",
     tags: [
       {
         name: "react",
