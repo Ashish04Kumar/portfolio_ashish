@@ -95,7 +95,7 @@ const technologies = [
   //   icon: mongodb,
   // },
   {
-    name: "Three JS",
+    name: "Next JS",
     icon: threejs,
   },
   // {
