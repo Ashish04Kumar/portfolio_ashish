@@ -1,4 +1,5 @@
-import React, { Suspense } from "react";
+/* eslint-disable react/no-unknown-property */
+import  { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import {
   Decal,
@@ -7,12 +8,13 @@ import {
   Preload,
   useTexture,
 } from "@react-three/drei";
-import CanvasLoader from "../Loader";
 
+import CanvasLoader from "../Loader";
 
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
-   return (
+
+  return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
       <ambientLight intensity={0.25} />
       <directionalLight position={[0, 0, 0.05]} />
@@ -33,10 +35,10 @@ const Ball = (props) => {
         />
       </mesh>
     </Float>
-  )
-}
+  );
+};
 
-
+// eslint-disable-next-line react/prop-types
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas
@@ -53,4 +55,5 @@ const BallCanvas = ({ icon }) => {
     </Canvas>
   );
 };
-export default BallCanvas
+
+export default BallCanvas;
