@@ -15,14 +15,15 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  cognizant,
+  sterlite,
+  twoDots,
+  bslogo,  
   carrent,
   jobit,
   tripguide,
   threejs,
+  bootstrap
 } from "../assets";
 
 export const navLinks = [
@@ -82,86 +83,82 @@ const technologies = [
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Bootstrap",
+    icon: bootstrap,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
+
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "SDE-1 Frontend Developer",
+    company_name: "Bombay Softwares",
+    icon: bslogo,
+    date: "August 2023  - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using React.js, Next.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Full Stack Developer",
+    company_name: "Two Dots",
+    icon: twoDots,
+    date: "Jul 2023 - Aug 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked as a full stack developer, building an agriculture-related project with an automatic irrigation mechanism",
+      "Developed the frontend using JavaScript Dom Manipulations and the backend with Node.js.",
+      "Exposure in Google Maps API to enhance functionality and user experience",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Full Stack Developer GET",
+    company_name: "Sterlite Technologies Ltd.",
+    icon:   sterlite,
+    date: "Oct 2022 - Apr 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Served as graduate engineer training as a Java Developer, specializing in the Java domain.",
+      "Acquired proficiency in Core Java and Spring Boot, enhancing backend development skills.",
+      "Worked with MySQL and SQL, gaining experience in database management and querying.",
+      "Collaborated with a team to deliver a library management software project, utilizing React for the frontend development, demonstrating full-stack development capabilities.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Programmer Analyst Intern",
+    company_name: "Cognizant",
+    icon: cognizant,
+    date: "Jan 2022 - Aug 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed an internship at Cognizant, gaining hands-on experience with databases and data warehouses.",
+      "Trained in Informatica PowerCenter, enhancing skills in data integration and transformation.",
+      "Worked on ETL processes using Informatica, demonstrating expertise in extracting, transforming, and loading data.",
+      "Developed understanding of data management and warehousing principles.",
     ],
   },
 ];
