@@ -67,14 +67,11 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
-   {
-    name: "CSS 3",
-    icon: css,
-  },
-  // {
-  //   name: "JavaScript",
-  //   icon: jslogo,
   
+  {
+    name: "JavaScript",
+    icon: jslogo,
+  },
   {
     name: "TypeScript",
     icon: typescript,
@@ -91,10 +88,10 @@ const technologies = [
     name: "Redux Toolkit",
     icon: redux,
   },
-  {
-    name: "Bootstrap",
-    icon: bootstrap,
-  },
+  // {
+  //   name: "Bootstrap",
+  //   icon: bootstrap,
+  // },
   {
     name: "Node JS",
     icon: nodejs,
