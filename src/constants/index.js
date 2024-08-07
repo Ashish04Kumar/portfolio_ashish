@@ -74,7 +74,7 @@ const technologies = [
   // {
   //   name: "JavaScript",
   //   icon: jslogo,
-  },
+  
   {
     name: "TypeScript",
     icon: typescript,
