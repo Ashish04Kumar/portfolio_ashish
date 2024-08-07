@@ -23,7 +23,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 // import threejs from "./tech/threejs.svg";
 import threejs from "./tech/nextjs.png";
-
+import jslogo from "./tech/jsicon.png"
 
 import bootstrap from "./tech/bootstrap.png"
 
@@ -36,6 +36,7 @@ import cognizant from "./company/Cognizant.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
 
 
 
@@ -69,4 +70,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  jslogo
 };

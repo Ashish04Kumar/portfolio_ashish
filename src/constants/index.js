@@ -9,6 +9,7 @@ import {
   css,
   reactjs,
   redux,
+  jslogo,
   tailwind,
   nodejs,
   mongodb,
@@ -23,7 +24,7 @@ import {
   jobit,
   tripguide,
   threejs,
-  bootstrap
+  bootstrap,
 } from "../assets";
 
 export const navLinks = [
@@ -66,10 +67,10 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
-  // {
-  //   name: "JavaScript",
-  //   icon: javascript,
-  // },
+  {
+    name: "JavaScript",
+    icon: jslogo,
+  },
   {
     name: "TypeScript",
     icon: typescript,
