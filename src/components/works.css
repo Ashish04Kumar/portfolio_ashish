@@ -1,0 +1,46 @@
+.border-glow-container{
+width: 360px;
+height: 310px;
+position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+                overflow: hidden;
+
+        border-radius: 10px;
+
+}
+
+.border-glow-container::before{
+        content: "";
+        background-image: conic-gradient(rgba(0,0,0,0), #1976ed, rgba(0,0,0,0) 25%);
+        width: 140%;
+        height: 140%;
+        position: absolute;
+        animation: rotate 3.5s linear infinite;
+        border-radius: 10px;
+                overflow: hidden;
+
+}
+.border-glow-container::after{
+        content: "";
+        width: 350px;
+        height: 300px;
+        background: #101010;
+        position: absolute;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+                overflow: hidden;
+        align-items: center;
+    }
+    
+    @keyframes rotate {
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
