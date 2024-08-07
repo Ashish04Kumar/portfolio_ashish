@@ -46,16 +46,16 @@
     @media (max-width: 768px) {
   .border-glow-container {
     width: 300px; 
-        height: 300px;
+    height: 300px;
 
     margin: 0 auto !important;
     
   }
   .border-glow-container::after{
        
-        width: 290px;
-        height: 290px;
-         margin: 0 auto !important;
+    width: 290px;
+    height: 290px;
+     margin: 0 auto !important;
     
         
     }
