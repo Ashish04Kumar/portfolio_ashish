@@ -20,7 +20,10 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
+        'violet-gradient': 'linear-gradient(90deg, #A855F7, #D946EF)', // Adjust the colors and direction as needed
+
       },
+      
     },
   },
   plugins: [],
