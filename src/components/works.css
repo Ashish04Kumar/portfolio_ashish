@@ -1,13 +1,11 @@
 .border-glow-container{
-width: 360px;
-height: 310px;
-position: relative;
+        width: 360px;
+        height: 310px;
+        position: relative;
         overflow: hidden;
         display: flex;
         justify-content: center;
         align-items: center;
-                overflow: hidden;
-
         border-radius: 10px;
 
 }
@@ -20,8 +18,7 @@ position: relative;
         position: absolute;
         animation: rotate 3.5s linear infinite;
         border-radius: 10px;
-                overflow: hidden;
-
+        
 }
 .border-glow-container::after{
         content: "";
@@ -31,9 +28,10 @@ position: relative;
         position: absolute;
         border-radius: 10px;
         display: flex;
-        justify-content: center;
-                overflow: hidden;
-        align-items: center;
+        /* justify-content: center; */
+        overflow: hidden;
+        /* align-items: center; */
+        margin: 0 auto;
     }
     
     @keyframes rotate {
@@ -44,3 +42,21 @@ position: relative;
             transform: rotate(360deg);
         }
     }
+
+    @media (max-width: 768px) {
+  .border-glow-container {
+    width: 300px; 
+        height: 300px;
+
+    margin: 0 auto !important;
+    
+  }
+  .border-glow-container::after{
+       
+        width: 290px;
+        height: 290px;
+         margin: 0 auto !important;
+    
+        
+    }
+}

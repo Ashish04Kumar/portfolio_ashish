@@ -13,13 +13,14 @@ import "./works.css"
 const ProjectCard = ({index, name, description, tags, image, source_code_link}) => {
   
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    // <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       
-  <div className='border-glow-container'>
-<div style={{zIndex: '100'}}>Project Section</div>
+      
+      <div className='border-glow-container'>
+       <div style={{zIndex: '1'}}>Project Section</div>
       </div>
       
-    </motion.div>
+    // </motion.div>
   )
 }
 
