@@ -30,8 +30,8 @@ const Tech = () => {
            <span className="mr-4">React.js</span>
            <span className="mr-4">Next.js</span>
            <span className="mr-4">Node.js</span>
-           <span className="mr-4">Git</span>
            <span className="mr-4">MySQL</span>
+           <span className="mr-4">Git</span>
            </span>
          </div>
       </div>

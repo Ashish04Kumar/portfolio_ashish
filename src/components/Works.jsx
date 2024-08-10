@@ -88,7 +88,14 @@ function Works() {
     </motion.p>
    </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+  <div className="project-scroll-container">
+        <div className="marquee">
+           <span className={`${styles.techSubText} mt-21 text-red-500`}>
+                    These sites are deployed on free server so api(data) loading might take some time.
+            </span>
+         </div>
+      </div>
+      <div className='mt-14 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
