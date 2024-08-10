@@ -21,8 +21,8 @@ const [isLinkOpen, setIsLinkOpen] = useState(false)
       <div className='border-glow-container'>
        <div  onClick={() => {
         window.open(deployed_site_link, "_blank")
-       }}  style={{zIndex: '1', height: '98.8%', width: '98.1%'}} className="cursor-pointer flex flex-col" >
-        <div className='relative w-full '>
+       }}  style={{zIndex: '1', height: '98.8%', width: '98.1%'}} className="cursor-pointer flex flex-col " >
+        <div className='relative w-full work-container position-relative'>
           <img src={image} alt={name} className='w-full h-full object-cover ' style={{borderTopLeftRadius: '8px', borderTopRightRadius: '8px' , height: '250px'}} />
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div   className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer' onClick={(e) => {
@@ -40,8 +40,12 @@ const [isLinkOpen, setIsLinkOpen] = useState(false)
           </div>
           
           <div className='absolute' style={{right:"10px", bottom: '10px'}}>
-<p style={{color: 'black', fontSize: '10px', background: 'yellow', borderRadius: '10px', padding: '4px'}}>This site is still cooking!</p>
+<p className='shimmer'>The site is cooking!</p>
           </div>
+           <div className='live-ribbon' >
+<p >Live</p>
+          </div>
+
         </div>
         <div className='w-full project-description'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>

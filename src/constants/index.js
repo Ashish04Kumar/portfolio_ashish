@@ -43,7 +43,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   // {
@@ -124,7 +124,6 @@ const experiences = [
       "Developing and maintaining web applications using React.js, Next.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
@@ -133,10 +132,8 @@ const experiences = [
     icon: twoDots,
     date: "Jul 2023 - Aug 2023",
     points: [
-      "Worked as a full stack developer, building an agriculture-related project with an automatic irrigation mechanism",
-      "Developed the frontend using JavaScript Dom Manipulations and the backend with Node.js.",
-      "Exposure in Google Maps API to enhance functionality and user experience",
-    ],
+      "Worked as a full stack developer, building an agriculture-related service for IOT irrigation mechanism",
+      "Developed the frontend using vanilla JavaScript and the backend with Node.js.",    ],
   },
   {
     title: "Full Stack Developer GET",
@@ -144,9 +141,9 @@ const experiences = [
     icon:   sterlite,
     date: "Oct 2022 - Apr 2023",
     points: [
-      "Served as graduate engineer training as a Java Developer, specializing in the Java domain.",
+      "Served as graduate engineer trainee as a Full Stack Java Developer, specializing in the React and Java domain.",
       "Acquired proficiency in Core Java and Spring Boot, enhancing backend development skills.",
-      "Worked with MySQL and SQL, gaining experience in database management and querying.",
+      "Worked with MySQL, gaining experience in database management and querying.",
       "Collaborated with a team to deliver a library management software project, utilizing React for the frontend development, demonstrating full-stack development capabilities.",
     ],
   },
@@ -156,7 +153,7 @@ const experiences = [
     icon: cognizant,
     date: "Jan 2022 - Aug 2022",
     points: [
-      "Completed an internship at Cognizant, gaining hands-on experience with databases and data warehouses.",
+      "Completed an internship at Cognizant Technology Solution, gaining hands-on experience with databases and data warehouses.",
       "Trained in Informatica PowerCenter, enhancing skills in data integration and transformation.",
       "Worked on ETL processes using Informatica, demonstrating expertise in extracting, transforming, and loading data.",
       "Developed understanding of data management and warehousing principles.",

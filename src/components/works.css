@@ -102,3 +102,50 @@
       cursor: pointer;
     }
 }
+
+ @keyframes shimmer {
+            0% {
+                background-position: -100%;
+            }
+            100% {
+                background-position: 100%;
+            }
+        }
+
+        .shimmer {
+            position: relative;
+            display: inline-block;
+            color: black;
+            font-size: 10px;
+            background: yellow;
+            border-radius: 10px;
+            padding: 4px;
+            overflow: hidden;
+            background: linear-gradient(90deg, yellow 0%, #ffafbd 50%, yellow 100%);
+            background-size: 200% 100%;
+            animation: shimmer 1.5s infinite;
+        }
+
+        .live-ribbon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: red;
+  color: white;
+  padding: 2px 12px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  transform-origin: top right;
+  z-index: 10;
+}
+
+.live-ribbon::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  right: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: red transparent transparent transparent;
+}
