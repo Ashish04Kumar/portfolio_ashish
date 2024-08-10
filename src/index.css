@@ -205,3 +205,13 @@
 }
 
 
+
+.hide-on-mobile {
+  display: block;
+}
+
+@media (max-width: 800px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
