@@ -45,7 +45,7 @@ const Contact = () => {
     emailjs
       .send(
         'service_tojmmji',
-        'template_w2a74jr',
+        'template_klko2gl',
         {
           from_name: form.name,
           to_name: "JavaScript Mastery",
