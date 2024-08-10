@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
@@ -16,6 +16,7 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 800);
 
   const handleChange = (e) => {
     const { target } = e;
@@ -26,6 +27,16 @@ const Contact = () => {
       [name]: value,
     });
   };
+
+
+    useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 800);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -123,12 +134,15 @@ const Contact = () => {
         </form>
       </motion.div>
 
-      <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px] hide-on-mobile'
-      >
-        <EarthCanvas />
-      </motion.div>
+          {!isMobile && (
+        <motion.div
+          variants={slideIn("right", "tween", 0.2, 1)}
+          className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+        >
+          <EarthCanvas />
+        </motion.div>
+      )}
+
     </div>
   );
 };
