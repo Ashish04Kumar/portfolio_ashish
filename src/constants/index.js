@@ -20,11 +20,10 @@ import {
   sterlite,
   twoDots,
   bslogo,  
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   bootstrap,
+  letseat,
+  ecom
 } from "../assets";
 
 export const navLinks = [
@@ -198,18 +197,29 @@ const projects = [
     description:
       "A eesponsive web-based platform that allows users to search, manage and order their selected products. This application is scalable to add authentication/authroization flow and payment gateway",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
+       {
+        name: "html/jsx",
+        color: "pink-text-gradient",
       },
       {
         name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
         color: "pink-text-gradient",
+      },
+       {
+        name: "javascript",
+        color: "green-text-gradient",
       },
       
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: ecom,
+    deployed_site_link: "https://ecommerce-website-frontend-p2ma.onrender.com",
+    source_code_link_backend: "https://github.com/Ashish04Kumar/ecommerce_backend",
+    source_code_link_frontend: "https://github.com/Ashish04Kumar/ecommerce_frontend",
+
   },
   {
     name: "Let's Eat Food Ordering WebApp",
@@ -227,9 +237,16 @@ const projects = [
         name: "tailwind css",
         color: "pink-text-gradient",
       },
+        {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: letseat,
+    deployed_site_link: "https://lets-eat-food-ordering-webapp-frontend.onrender.com",
+    source_code_link_backend: "https://github.com/Ashish04Kumar/lets-Eat-food-ordering-webapp-backend",
+    source_code_link_frontend: "https://github.com/Ashish04Kumar/lets-eat-food-ordering-webapp-frontend",
+
   },
   // {
   //   name: "Trip Guide",

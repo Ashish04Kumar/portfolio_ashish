@@ -31,11 +31,10 @@ import bslogo from  "./company/BSLogo.png";
 import twoDots from  "./company/TwoDots.png"
 import sterlite from "./company/STL.png"
 import cognizant from "./company/Cognizant.png"
+ 
+import ecom from "./tech/ecom.png"
+import letseat from "./lets-eat.png"
 
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
 
 
@@ -67,8 +66,7 @@ export {
   twoDots, 
   sterlite,
   cognizant,
-  carrent,
-  jobit,
-  tripguide,
-  jslogo
+  jslogo,
+  ecom,
+  letseat,
 };
