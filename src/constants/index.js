@@ -83,10 +83,10 @@ const technologies = [
   //   name: "Next JS",
   //   icon: threejs,
   // },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   // {
   //   name: "Bootstrap",
   //   icon: bootstrap,
