@@ -21,7 +21,7 @@ const [isLinkOpen, setIsLinkOpen] = useState(false)
       <div className='border-glow-container'>
        <div  onClick={() => {
         window.open(deployed_site_link, "_blank")
-       }}  style={{zIndex: '1', height: '97.8%', width: '98.1%'}} className="cursor-pointer flex flex-col" >
+       }}  style={{zIndex: '1', height: '98.8%', width: '98.1%'}} className="cursor-pointer flex flex-col" >
         <div className='relative w-full '>
           <img src={image} alt={name} className='w-full h-full object-cover ' style={{borderTopLeftRadius: '8px', borderTopRightRadius: '8px' , height: '250px'}} />
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
@@ -43,7 +43,7 @@ const [isLinkOpen, setIsLinkOpen] = useState(false)
 <p style={{color: 'black', fontSize: '10px', background: 'yellow', borderRadius: '10px', padding: '4px'}}>This site is still cooking!</p>
           </div>
         </div>
-        <div className='w-full' style={{ background: '#1D1836',height: '300px',padding: '18px', borderBottomLeftRadius: '8px', borderBottomRightRadius: '8px'}}>
+        <div className='w-full project-description'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
           <div className='mt-4 flex flex-wrap gap-2'>
@@ -57,6 +57,7 @@ const [isLinkOpen, setIsLinkOpen] = useState(false)
           ))}
         </div>
         </div>
+      
          
        </div>
       </div>
