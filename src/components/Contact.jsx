@@ -135,13 +135,13 @@ const Contact = () => {
       </motion.div>
 
        
-        <div
+        {!isMobile && <div
           
           className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
         >
        
           <EarthCanvas />
-        </div>
+        </div>}
       
 
     </div>
